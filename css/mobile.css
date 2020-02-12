@@ -1,3 +1,22 @@
+@media screen and (max-width: 1024px) {
+  .nav_options {
+    width: 100vw;
+  }
+  .row{
+    display: inherit;
+  }
+ .col-1,.col-2,.col-3, .col-4, .col-5, .col-6, .col-7, .col-8{
+   width: 100%;
+ }
+ .row-center {
+  display: flex;
+  flex-direction: column-reverse;
+  }
+  .product {
+    margin-top: -26px
+
+  }
+}
 @media (max-width: 600px) {
 
   .products{
